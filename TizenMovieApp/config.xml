@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/TizenMovieApp" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="6yEMPL4uwI.TizenMovieApp" package="6yEMPL4uwI" required_version="2.4"/>
+    <content src="index1.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>TizenMovieApp</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:profile name="mobile"/>
+    <tizen:setting context-menu="disable"/>
+</widget>

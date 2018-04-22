@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="4.0" package="org.example.tizenmovieservice" version="1.0.0">
+    <profile name="mobile"/>
+    <service-application appid="org.example.tizenmovieservice" auto-restart="true" exec="tizenmovieservice" multiple="false" nodisplay="true" on-boot="true" taskmanage="false" type="capp">
+        <label>tizenmovieservice</label>
+        <icon>tizenmovieservice.png</icon>
+        <background-category value="background-network"/>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/network.get</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+    </privileges>
+</manifest>

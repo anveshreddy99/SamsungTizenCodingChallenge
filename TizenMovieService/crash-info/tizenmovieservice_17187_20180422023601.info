@@ -1,0 +1,109 @@
+Archive:  /opt/usr/share/crash/dump/tizenmovieservice_17187_20180422023601.zip
+  inflating: tizenmovieservice_17187_20180422023601/tizenmovieservice_17187_20180422023601.info  
+Executable File Path: /opt/usr/globalapps/6yEMPL4uwI/bin/tizenmovieservice
+Signal: 6
+      (SIGABRT)
+
+Register Information
+gs  = 0x00000033, fs  = 0x00000000
+es  = 0x0000007b, ds  = 0x0000007b
+edi = 0x00000000, esi = 0x00000008
+ebp = 0xbfe6a550, esp = 0xbfe6a540
+eax = 0x00000000, ebx = 0x00000002
+ecx = 0xbfe6a550, edx = 0x00000000
+eip = 0xb777ba49
+
+Memory information
+MemTotal:  1026612 KB
+MemFree:	   215920 KB
+Buffers:	    46920 KB
+Cached:	    501512 KB
+VmPeak:	     43640 KB
+VmSize:	     42616 KB
+VmLck:	          0 KB
+VmPin:	          0 KB
+VmHWM:	      13512 KB
+VmRSS:	      13512 KB
+VmData:	     21248 KB
+VmStk:	        136 KB
+VmExe:	          8 KB
+VmLib:	      17224 KB
+VmPTE:	         48 KB
+VmSwap:	         0 KB
+
+Threads Information
+Threads: 3
+PID = 17187 TID = 17187
+17187 17277 17278 
+
+Maps Information
+        80015000         80017000 r-xp /opt/usr/globalapps/6yEMPL4uwI/bin/tizenmovieservice
+        8078f000         80900000 rw-p [heap]
+        b65d2000         b65d6000 r-xp /usr/lib/libuuid.so.1.3.0
+        b65d8000         b6621000 r-xp /usr/lib/libblkid.so.1.1.0
+        b6627000         b662e000 r-xp /usr/lib/libsmack.so.1.3.1
+        b6630000         b67a0000 r-xp /usr/lib/libstdc++.so.6.0.22
+        b67aa000         b67be000 r-xp /usr/lib/libsensord-shared.so
+        b67c0000         b67d9000 r-xp /usr/lib/libgcc_s.so.1
+        b67dd000         b67e1000 r-xp /usr/lib/libcap.so.2.24
+        b67e3000         b683f000 r-xp /usr/lib/libmount.so.1.1.0
+        b6845000         b686e000 r-xp /usr/lib/liblzma.so.5.2.2
+        b6870000         b6883000 r-xp /usr/lib/libresolv-2.24.so
+        b6888000         b688b000 r-xp /usr/lib/libgmodule-2.0.so.0.5200.2
+        b688d000         b6899000 r-xp /usr/lib/libminizip.so.1.0.0
+        b689b000         b689e000 r-xp /usr/lib/libSLP-db-util.so.0.1.0
+        b68a0000         b68c0000 r-xp /usr/lib/libpkgmgr_parser.so.0.12.10
+        b68c2000         b68c7000 r-xp /usr/lib/libgdbm.so.3.0.0
+        b68c9000         b68d7000 r-xp /usr/lib/libbuxton2.so.1.2.23
+        b68db000         b68e1000 r-xp /usr/lib/libffi.so.6.0.2
+        b68e4000         b68e7000 r-xp /usr/lib/libdl-2.24.so
+        b68e9000         b6914000 r-xp /usr/lib/libsensor-genuine.so.4.0.3
+        b6916000         b6970000 r-xp /usr/lib/libm-2.24.so
+        b6972000         b6979000 r-xp /usr/lib/librt-2.24.so
+        b697b000         b6a16000 r-xp /usr/lib/libsystemd.so.0.16.0
+        b6a1a000         b6a8f000 r-xp /usr/lib/libeina.so.1.16.0
+        b6a91000         b6aa1000 r-xp /usr/lib/libeo.so.1.16.0
+        b6aa4000         b6ab7000 r-xp /usr/lib/libefl.so.1.16.0
+        b6aba000         b6b32000 r-xp /usr/lib/libpcre.so.1.2.7
+        b6b34000         b6b3d000 r-xp /usr/lib/libstorage.so.0.1
+        b6b42000         b6b45000 r-xp /usr/lib/libttrace.so.1.1
+        b6b47000         b6ca6000 r-xp /usr/lib/libxml2.so.2.9.7
+        b6cad000         b6cb1000 r-xp /usr/lib/libiniparser.so.0
+        b6cb3000         b6db0000 r-xp /usr/lib/libsqlite3.so.0.8.6
+        b6db4000         b6dbb000 r-xp /usr/lib/libtzplatform-config-2.0.so.2.0.0
+        b6dbd000         b6dc6000 r-xp /usr/lib/libxdgmime.so.1.1.0
+        b6dc8000         b6f78000 r-xp /usr/lib/libgio-2.0.so.0.5200.2
+        b6f7e000         b6fa7000 r-xp /usr/lib/libpkgmgr-info.so.0.12.10
+        b6fa9000         b6fc0000 r-xp /usr/lib/libz.so.1.2.11
+        b6fc2000         b71a2000 r-xp /usr/lib/libcrypto.so.1.0.0
+        b71bc000         b7226000 r-xp /usr/lib/libssl.so.1.0.0
+        b722f000         b7254000 r-xp /usr/lib/libnghttp2.so.14.13.0
+        b7257000         b7268000 r-xp /usr/lib/libcares.so.2.2.0
+        b726a000         b726e000 r-xp /usr/lib/libcapi-system-info.so.0.2.1
+        b7271000         b7297000 r-xp /usr/lib/libnetwork.so.0.0.0
+        b7299000         b729f000 r-xp /usr/lib/libvconf.so.0.3.1
+        b72a1000         b72f3000 r-xp /usr/lib/libgobject-2.0.so.0.5200.2
+        b72f5000         b731c000 r-xp /usr/lib/libjson-glib-1.0.so.0.200.0
+        b731e000         b7328000 r-xp /usr/lib/libcapi-base-common.so.0.4.19
+        b732b000         b7344000 r-xp /usr/lib/libpthread-2.24.so
+        b7348000         b7351000 r-xp /usr/lib/libappcore-common.so.1.9.22
+        b7353000         b737f000 r-xp /usr/lib/libecore.so.1.16.0
+        b7391000         b7398000 r-xp /usr/lib/libcapi-appfw-app-control.so.0.7.0
+        b739a000         b74b5000 r-xp /usr/lib/libglib-2.0.so.0.5200.2
+        b74b8000         b74ec000 r-xp /usr/lib/libaul.so.0.7.26
+        b74ee000         b7694000 r-xp /usr/lib/libc-2.24.so
+        b769b000         b76a8000 r-xp /usr/lib/libmessage-port.so.1.3.14
+        b76aa000         b76b1000 r-xp /usr/lib/libdlog.so.0.0.0
+        b76bb000         b773a000 r-xp /usr/lib/libcurl.so.4.4.0
+        b773e000         b7756000 r-xp /usr/lib/libcapi-network-connection.so.1.0.108
+        b7758000         b775e000 r-xp /usr/lib/libbundle.so.0.2.3
+        b7760000         b7763000 r-xp /usr/lib/libappcore-agent.so.1.2.6
+        b777c000         b779f000 r-xp /usr/lib/ld-2.24.so
+        bfe4c000         bfe6d000 rw-p [stack]
+End of Maps Information
+
+Callstack Information (PID:17187)
+Call Stack Count: 1
+ 0: __kernel_vsyscall (0xb777ba49) [[vdso: 17187]] + 0xa49
+End of Call Stack
+

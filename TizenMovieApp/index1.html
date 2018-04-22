@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+	<link rel="stylesheet" href="./lib/tau/mobile/theme/default/tau.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<script type="text/javascript" src="./lib/tau/mobile/js/tau.js" data-build-remove="false"></script>
+	<!--<script type="text/javascript" src="./js/app.js" data-build-remove="false"></script>-->
+	<script type="text/javascript" src="./js/main.js" data-build-remove="false"></script>
+	<script type="text/javascript" src="./lib/jquery.js" data-build-remove="false"></script>
+</head>
+<div class="ui-page" id="mainPage">
+	<div class="ui-tabs">
+	<div class="loading" ></div>
+	
+	<div id="error_popup" class="ui-popup">
+            <div class="ui-popup-content popup-content-padding" id="popup_message">
+                Lorem ipsum dolor sit amet,
+                consectetur adiptiscing elit, sed
+                doei usmod tempore sit ipsum
+            </div>
+            <div class="ui-popup-footer">
+                <a class="ui-btn" data-rel="back" data-inline="true" id="closeApp">Close App</a>
+            </div>
+        </div>
+		<h1 class="ui-title">Tizen Movies</h1>
+		<div class="ui-tabbar">
+			<ul>
+				<li class="ui-li-anchor"><a href="#" class="ui-tab-active">Now Playing</a></li>
+				<li class="ui-li-anchor"><a href="#">Upcoming movies</a></li>
+			</ul>
+		</div>
+		<div class="ui-section-changer" id="sectionChanger">
+			<div>
+				<section class="ui-section-active">
+					<ul class="ui-listview" id="now_showing">	
+					</ul>
+			    <button data-inline="true" id="now_showing_btn">Show More</button>
+				</section>
+				<section>
+					<ul class="ui-listview" id="upcoming">
+					</ul>
+				<button data-inline="true" id="upcoming_btn">Show More</button>
+				</section>	
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

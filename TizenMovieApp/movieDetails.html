@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="./lib/tau/mobile/theme/default/tau.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<script type="text/javascript" src="./lib/tau/mobile/js/tau.js" data-build-remove="false"></script>
+	
+</head>
+<body>
+<div class="ui-page" id="headerLeftButtonPage">
+	<div class="ui-header" data-position="fixed">
+		<h1>Movie Details</h1>
+		<a class="ui-header-btn ui-header-btn-left ui-header-btn-icon btn-icon-back" onclick="window.history.back();"></a>
+	</div>
+	<div class="ui-content" id="details">
+		<div class="app-introduction">
+			<h4 id="title" align="center">Movie Title</h4>
+			<img id="poster" src="https://image.tmdb.org/t/p/w370_and_h556_bestv2/eKi8dIrr8voobbaGzDpe8w0PVbC.jpg" alt="Smiley face" width="270" height="356">
+			<br/><br/>
+			Genre : <br/><span id="genre"></span>
+			<br/><br/>
+			Release Date : <span id="release"></span>
+			<br/><br/>
+			Overview : <span id="overview"></span>
+		</div>
+	</div><!-- /content -->
+	<script type="text/javascript" src="./js/movieDetails.js" data-build-remove="false"></script>
+</div>
+</body>
+</html>
