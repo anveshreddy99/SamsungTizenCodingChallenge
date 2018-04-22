@@ -4,10 +4,10 @@ The following requirements were met
 - 1 central page with two buttons.
 - 1 tab titled “Now Playing”
 - 1 tab titled “Upcoming movies”
-- Each button shows a vertical of movies according to the button selected
+- Each tab shows a vertical list of movies according to the tab selected
  Each movie item has:
    - Movie name
-   - Movie vote average (populatity)
+   - Movie vote average (popularity)
    - Movie Detail page:
      On clicking movie in the list goes to movie detail page
    - Movie details page has movie title, poster, genre, release date, overview
